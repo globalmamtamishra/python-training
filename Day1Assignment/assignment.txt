@@ -1,0 +1,179 @@
+
+problem1:
+1)start
+3)declare variable
+2)read the name from the user.
+4)assign name to variable
+3)Print variable
+4)stop
+
+problem2
+
+1)start
+3)declare two variable like floata,float b
+4)declare variable float mul
+2)read value of a 
+3)read value of b
+
+
+6)multiply a and b and assign two mul
+3)Print mul
+4)stop
+
+problem3:
+
+start
+declare two variable int a=10 ,int b=20
+declare int temp 0
+temp=a
+a=b
+b=temp
+Print a and b
+stop
+
+
+
+problem4:
+
+1. Start
+2. read the temperature in Celsius ('C').
+3. Multiply C by 9/5.
+4. Add 32 to the result 
+5. Celsius * 9/5 + 32.
+6. print F.
+7. Stop.
+
+
+
+
+program1:
+1)check number is even or odd
+
+
+1)start
+
+2)declare a variable int a
+3)read value of a
+4)Divide  a by 2.(a%2==0)
+5)if the remainder is 0
+6)print the number is even
+7)If the remainder is 1
+8)the number is odd.
+
+9)stop
+
+
+program2:leap year
+
+
+
+
+1)start
+
+2)declare a variable int year
+3)read value of a
+4)Divide  a by 4.(a%4==0)
+5)If the year is divisible by 100, it must also be divisible by 400 to be a leap year.(year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+6)print is a leap year
+7)else is not a leap year
+8)stop
+
+program3: factorial
+
+1)start
+2)declare a variable int n
+3)read value of n
+4)declare a variable fact assign 1
+5) Iterate from 1 to n  (for i in range(1, n + 1))
+6)multiplying each iteration's value with   fact (fact *= i) 
+
+7)print fact
+8)stop
+
+
+program4:Armstrong number
+ 
+
+1)start
+2)declare a variable int number
+3)read value of number
+4)Count the number of digits in the given number.like this( num_str = str(num);    num_digits = len(num_str))
+    
+5)declare a variable int sum
+6) For each digit in the number, raise it to the power of the total number of digits, and sum them up.for like this(digit in num_str:
+        armstrong_sum += int(digit) ** num_digits
+7) sum is equal to the original number, then it's an Armstrong number.
+8)print is an Armstrong number
+9)print isnot an Armstrong number
+8)stop
+
+
+program5: of fibonacci series
+
+
+1)start
+2)declare a variable int n
+3)read the value of n
+3)Initialize variables a and b to 0 and 1 
+4)Start a loop from 0 to the number of terms n, and in each iteration
+5)Print or store the value of a.
+6)Update a and b such that a becomes b and b becomes the sum of the previous a and b
+7)print the Fibonacci series.
+8)stop
+
+
+progrm6: reverse string
+
+1)start
+2)declare a variable string str
+3)read the value of str
+4)Initialize an empty string to store the reversed string.(reversed_string = "")
+
+5)Iterate through each character of the input string, starting from the last character.
+6)Append each character to the empty string created 
+7)print the reversed_string 
+
+
+program7: 
+
+palindrom
+
+1)start
+2)declare a variable string str
+3)read the value of str
+
+4)Initialize an empty string to store the reversed string.(reversed_string = "")
+5)Iterate through each character of the input string, starting from the last character.
+
+6)Append each character to the empty string created (reversed_string = "")
+
+7)compare str==(reversed_string = "")
+8)print palindrom
+9)print not palindrom
+10)stop
+
+program 8: prime number
+
+1)start
+2)declare a variable int num
+3)read the value of str
+4) If the number is less than 2, it's not a prime number.
+5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
